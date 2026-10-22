@@ -1,13 +1,13 @@
 import { ProjectItem, BonusItem, TestimonialItem, FaqItem, StepRoadmap } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_artisan_woman_1790123425974.jpg';
-export const TREE_SPECIAL_IMAGE = '/src/assets/images/macrame_tree_special_1790123441992.jpg';
-export const MANDALA_LIVING_IMAGE = '/src/assets/images/macrame_mandala_living_1790123455629.jpg';
-export const WEAVING_HANDS_IMAGE = '/src/assets/images/macrame_weaving_hands_1790123467220.jpg';
-export const BOLSA_SANTORINI_IMAGE = '/src/assets/images/bolsa_santorini_1792629638042.jpg';
-export const BOLSO_BAHIA_IMAGE = '/src/assets/images/bolso_playero_bahia_1792629639168.jpg';
-export const TAPIZ_HOJAS_PLUMAS_IMAGE = '/src/assets/images/tapiz_hojas_plumas_1792629640681.jpg';
-export const TULA_VERONA_IMAGE = '/src/assets/images/tula_verona_bombonera_1792629639861.jpg';
+export const HERO_IMAGE = '/public/hero_artisan_woman_1790123425974.jpg';
+export const TREE_SPECIAL_IMAGE = '/public/macrame_tree_special_1790123441992.jpg';
+export const MANDALA_LIVING_IMAGE = '/public/macrame_mandala_living_1790123455629.jpg';
+export const WEAVING_HANDS_IMAGE = '/public/macrame_weaving_hands_1790123467220.jpg';
+export const BOLSA_SANTORINI_IMAGE = '/public/bolsa_santorini_1792629638042.jpg';
+export const BOLSO_BAHIA_IMAGE = '/public/bolso_playero_bahia_1792629639168.jpg';
+export const TAPIZ_HOJAS_PLUMAS_IMAGE = '/public/tapiz_hojas_plumas_1792629640681.jpg';
+export const TULA_VERONA_IMAGE = '/public/tula_verona_bombonera_1792629639861.jpg';
 
 export const PROJECTS_DATA: ProjectItem[] = [
   {
