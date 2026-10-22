@@ -104,7 +104,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenCheckout }) => {
               {/* Main Photo: 44-year-old artisan woman at the wooden loom */}
               <div className="overflow-hidden rounded-2xl border-2 border-[#FFFFFF] shadow-2xl bg-white aspect-[4/3] sm:aspect-[4/3] relative group">
                 <img
-                  src={HERO_IMAGE}
+                  src="/hero_artisan_woman_1790123425974.jpg"
                   alt="Mujer artesana tejiendo macramé en telar de madera en su taller botánico"
                   className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   loading="eager"
