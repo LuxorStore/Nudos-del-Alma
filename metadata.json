@@ -1,0 +1,6 @@
+{
+  "name": "Escuela de Macramé: Nudos del Alma",
+  "description": "Landing page de ventas de alta conversión para la Escuela de Macramé Nudos del Alma: bienestar emocional, terapia creativa y emprendimiento artesanal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

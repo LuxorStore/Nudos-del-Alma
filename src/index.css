@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Poppins', sans-serif;
+    --font-serif: 'Playfair Display', serif;
+    --color-sand: #F9F6F0;
+    --color-olive: #4A5D4E;
+    --color-olive-dark: #334537;
+    --color-gold: #C59B27;
+    --color-gold-dark: #B8860B;
+    --color-anthracite: #2D3748;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-sand);
+    color: var(--color-anthracite);
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.015em;
+  }
+}
+
+.font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-serif-accent {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Luminous Gold Neon Glow Button requested by user */
+.btn-gold-glow {
+  background: linear-gradient(135deg, #FDE68A 0%, #F5C026 35%, #D99B16 100%);
+  color: #1F2937;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 9999px;
+  box-shadow: 0 0 22px rgba(245, 192, 38, 0.55), 0 0 45px rgba(217, 155, 22, 0.28), 0 4px 14px rgba(184, 134, 11, 0.25);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  isolation: isolate;
+}
+
+.btn-gold-glow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+  transform: skewX(-20deg);
+  transition: none;
+  animation: shine-sweep 4s infinite ease-in-out;
+  pointer-events: none;
+}
+
+.btn-gold-glow:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 0 32px rgba(245, 192, 38, 0.8), 0 0 60px rgba(217, 155, 22, 0.45), 0 8px 24px rgba(184, 134, 11, 0.35);
+  background: linear-gradient(135deg, #FEF08A 0%, #FBBF24 35%, #E19C10 100%);
+}
+
+.btn-gold-glow:active {
+  transform: translateY(0) scale(0.99);
+}
+
+@keyframes shine-sweep {
+  0% {
+    left: -100%;
+  }
+  30%, 100% {
+    left: 200%;
+  }
+}
+
+/* Subtle organic card shadow */
+.shadow-soft-craft {
+  box-shadow: 0 10px 30px -4px rgba(45, 55, 72, 0.06), 0 2px 8px -1px rgba(74, 93, 78, 0.04);
+}
+
+.shadow-card-elevated {
+  box-shadow: 0 20px 40px -8px rgba(45, 55, 72, 0.08), 0 4px 12px -2px rgba(197, 155, 39, 0.06);
+}
